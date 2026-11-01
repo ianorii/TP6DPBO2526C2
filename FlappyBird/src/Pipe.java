@@ -1,0 +1,51 @@
+import java.awt.*;
+
+public class Pipe {
+    private int posX;
+    private int posY;
+    private int width;
+    private int height;
+    private Image image;
+    private int velocityX;
+    boolean passed;
+
+    // Constructor
+    public Pipe(int posX, int posY, int width, int height, Image image) {
+        this.posX = posX;
+        this.posY = posY;
+        this.width = width;
+        this.height = height;
+        this.image = image;
+
+        this.velocityX = 0;
+        this.passed = false;
+    }
+
+    // Setter & getter posisi X
+    public void setPosX(int posX) {this.posX = posX;}
+    public int getPosX() {return posX;}
+
+    // Setter & getter posisi Y
+    public void setPosY(int posY) {this.posY = posY;}
+    public int getPosY() {return posY;}
+
+    // Setter & getter lebar
+    public void setWidth(int width) {this.width = width;}
+    public int getWidth() {return width;}
+
+    // Setter & getter tinggi
+    public void setHeight(int height) {this.height = height;}
+    public int getHeight() {return height;}
+
+    // Setter & getter gambar
+    public void setImage(Image image) {this.image = image;}
+    public Image getImage() {return image;}
+
+    // Setter & getter kecepatan horizontal
+    public void setVelocityX(int velocityX) {this.velocityX = velocityX;}
+    public int getVelocityX() {return velocityX;}
+
+    // Setter & getter status "sudah dilewati"
+    public void setPassed(boolean passed) {this.passed = passed;}
+    public boolean getPassed() {return passed;}
+}
