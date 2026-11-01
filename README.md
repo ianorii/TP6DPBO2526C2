@@ -102,4 +102,3 @@ Memutar efek suara dan BGM menggunakan voice pool agar suara bisa tumpang tindih
 
 ## Tapilan dan Gameplay
 https://github.com/user-attachments/assets/Gameplay.mp4
-<video src="Dokumentasi/Gameplay.mp4" controls width="360"></video>
