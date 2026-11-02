@@ -101,4 +101,3 @@ Memutar efek suara dan BGM menggunakan voice pool agar suara bisa tumpang tindih
    - Game loop kembali berjalan dari awal.
 
 ## Tapilan dan Gameplay
-https://github.com/user-attachments/assets/Gameplay.mp4
